@@ -1,4 +1,4 @@
-# 🧘‍♀️ Mindful Minutes
+# Mindful Minutes
 
 **Mindful Minutes** is a React Native app designed to help users take short, guided mindfulness breaks and track their mood throughout the day. Whether you're seeking clarity, calm, or a quick energy boost, this app makes mental wellness accessible in just a few minutes.
 
@@ -66,20 +66,6 @@ MindfulMinutes/
 - [ ] Firebase integration for cloud sync
 - [ ] Push notifications
 - [ ] Breathing animation component
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
-
-### To contribute:
-
-```bash
-git checkout -b feature/your-feature-name
-git commit -m "Add your feature"
-git push origin feature/your-feature-name
-```
 
 ---
 

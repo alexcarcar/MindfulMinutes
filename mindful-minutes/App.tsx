@@ -2,6 +2,8 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './screens/HomeScreen';
+import MeditationPlayer from './screens/MeditationPlayer';
+import MoodHistoryScreen from './screens/MoodHistoryScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -10,6 +12,8 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Meditation" component={MeditationPlayer} />
+        <Stack.Screen name="Mood History" component={MoodHistoryScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
